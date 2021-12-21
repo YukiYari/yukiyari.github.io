@@ -9,10 +9,21 @@
 </head>
 <body>
     <section>
-        <img src="img/gylo2.JPG" alt="Pfofile Photo">
+        <img src="img/gylo2.JPG" alt="Pfofile Photo" id="trigger">
         <h1>祐生（창우）</h1>
-        <p>98/180/SAITAMA<br>(일본인):ENTJ<br>Fashion/Cafe/View/BW</p>    
+        <p id="target">98/180/SAITAMA<br>(일본인):ENTJ<br>Fashion/Cafe/View/BW</p>    
     </section>
     <footer>&copy;changu.com</footer>
+
+<script>
+    'use strict';
+
+    function process() {
+        document.getElementById('target').textContent = '98/180/SAITAMA(日本人):ENTJ/Fashion/Cafe/View/BW';
+        document.getElementById('trigger').classList.add('changed');
+    }
+
+    document.getElementById('trigger').addEventListener('click', process);
+</script>
 </body>
 </html>
