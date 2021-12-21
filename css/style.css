@@ -1,0 +1,18 @@
+img{
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
+section{
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: black;
+  color: blanchedalmond;
+}
+body{
+  text-align: center;
+}
