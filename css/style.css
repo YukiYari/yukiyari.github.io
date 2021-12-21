@@ -1,7 +1,12 @@
+body{
+  text-align: center;
+}
+
 img{
   border-radius: 50%;
-  width: 500px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 section{
   border-width: 1px;
@@ -13,6 +18,24 @@ section{
   background-color: black;
   color: blanchedalmond;
 }
-body{
-  text-align: center;
+
+footer {
+  background: #aaa3;
+  width: 100%;
+  align-items: center;
+  padding: 32px 0;
+}
+
+@media (min-width: 800px) {
+
+  section hi p {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+
+  img {
+    max-width: 500px;
+
+  }
+
 }
